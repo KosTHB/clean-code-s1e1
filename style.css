@@ -4,6 +4,7 @@
 
 /* Instead of "task" */
 .link__task-label {
+  text-align: left;
 }
 /* img */
 .link__delete-image {
@@ -45,6 +46,10 @@ body {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+
+.main-title {
+
 }
 
 .main__new-task-input {
@@ -96,6 +101,8 @@ label[for="new-task"] {
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+  left: 0;
+  text-align: left;
 }
 
 input[type="text"] {
