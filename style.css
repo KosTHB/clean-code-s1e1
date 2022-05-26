@@ -46,7 +46,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.main__task-wrapper {
+.main__task-container {
   display: flex;
 }
 ul {
@@ -103,7 +103,7 @@ label[for ="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -130,7 +130,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px
 }
 button.link__delete-button img {
@@ -143,8 +143,8 @@ button.link__delete-button img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
-  text-decoration: line-through
+#completed-tasks label {
+  text-decoration: line-through;
   color: #888;
 }
 
