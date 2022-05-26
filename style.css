@@ -26,9 +26,11 @@ body {
   width: 100%;
 }
 
-.container .header__inf_link {
+.container 
+.header__inf_link {
   font-family: fantasy, cursive;
 }
+
 
 @media (max-width: 768px) {
 
@@ -37,6 +39,7 @@ body {
   }
 
 }
+
 
 .main {
   display: block;
