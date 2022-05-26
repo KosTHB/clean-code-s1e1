@@ -1,9 +1,19 @@
+input,
+button {
+  outline: none;
+}
+
+li,
+h3 {
+  list-style: none;
+}
+
 /* Instead of "task" */
 .link__task-label {
   text-align: left;
 }
 
-body {
+.container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -54,16 +64,6 @@ body {
 .main__list {
   margin: 0;
   padding: 0px;
-}
-
-li,
-h3 {
-  list-style: none;
-}
-
-input,
-button {
-  outline: none;
 }
 
 .list__edit-button,
@@ -117,11 +117,6 @@ button {
 }
 
 /* New Task */
-label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-}
-
 #new-task {
   width: 318px;
 }
@@ -157,7 +152,7 @@ label[for="new-task"] {
   transition: transform 200ms ease-in;
 }
 
-button.link__delete-button img:hover {
+.link__delete-button img:hover {
   transform: rotateZ(0);
 }
 
